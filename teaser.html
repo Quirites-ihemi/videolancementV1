@@ -28,15 +28,11 @@
 <meta name="twitter:image" content="https://quirites-ihemi.github.io/videolancementV1/teaser_partage_1200x627.jpg">
 
 <style>
-  *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;background:#091636;color:#fff;font-family:"Montserrat","Segoe UI",Arial,sans-serif;
-       display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px}
-  h1{font-size:clamp(22px,3vw,34px);font-weight:700;margin:0 0 18px;text-align:center}
-  video{display:block;width:min(100%,calc((100vh - 120px) * 16 / 9));aspect-ratio:16/9;background:#000;border-radius:12px}
+  html,body{margin:0;height:100%;background:#000}
+  video{display:block;width:100vw;height:100vh;object-fit:contain;background:#000}
 </style>
 </head>
 <body>
-  <h1>Quiritès Veille Lab en 90 secondes</h1>
-  <video src="Quirites_VeilleLab_teaser_90s_v2.mp4" poster="teaser_vignette_1920x1080.jpg" controls playsinline preload="metadata"></video>
+  <video src="Quirites_VeilleLab_teaser_90s_v2.mp4" poster="teaser_vignette_1920x1080.jpg" controls playsinline preload="metadata" aria-label="Quiritès Veille Lab en 90 secondes"></video>
 </body>
 </html>
